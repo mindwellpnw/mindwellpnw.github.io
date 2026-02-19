@@ -2,6 +2,7 @@
   --bg:#fbfaf7;
   --paper:#ffffff;
   --tint:#f4efe8;
+  --tint2:#eef0ed;
   --ink:#2b2a28;
   --muted:#6f6b66;
   --line:#e6e0d8;
@@ -113,7 +114,7 @@ body{
   border-top:1px solid var(--line);
 }
 .tint{background:var(--tint)}
-
+.tint2{background:var(--tint2)}
 h2{
   margin:0 0 14px;
   font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
