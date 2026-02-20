@@ -300,6 +300,11 @@ body {
 .questions-indent {
     padding-left: 12rem;
 }
+@media (max-width: 640px) {
+    .questions-indent {
+        padding-left: 0;
+    }
+}
 /* Expertise */
 .expertise {
     padding: 4rem 0;
