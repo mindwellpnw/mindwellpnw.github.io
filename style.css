@@ -296,7 +296,9 @@ body {
     color: #374151;
     font-style: italic;
 }
-
+.questions-indent {
+    padding-left: 3rem;
+}
 /* Areas of Focus */
 .areas-focus {
     padding: 4rem 0;
