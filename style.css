@@ -450,9 +450,11 @@ body {
 }
 
 .disclaimer {
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: #6b7280;
     font-style: italic;
+    text-align: center;
+    margin-top: 1.5rem;
 }
 
 @media (min-width: 768px) {
