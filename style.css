@@ -597,14 +597,19 @@ body {
         padding: 1.5rem 1rem;
     }
 }
-@media (max-width: 640px) {
+/* This targets mobile phones more broadly */
+@media screen and (max-width: 768px) {
     .familiar-box {
-        padding: 1.5rem 0.75rem; /* Reduces top/bottom and significantly shrinks side padding */
-        margin: 0;               /* Ensures the box touches the edges if needed */
-        width: 100%;             /* Forces the box to use all available horizontal space */
+        padding: 1.5rem 1rem !important; /* Forces the box to have smaller side padding */
+        width: auto !important;
+        margin: 0 1rem !important;      /* Adds a small gap on the outside of the box */
     }
 
     .questions-indent {
-        padding-left: 0.5rem;   /* This removes that massive 12rem desktop gap */
+        padding-left: 0 !important;      /* Completely removes the 12rem desktop gap */
+    }
+
+    .question-item {
+        padding-left: 2rem !important;   /* Ensures the green bullet has space */
     }
 }
