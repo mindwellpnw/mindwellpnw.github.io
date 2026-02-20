@@ -300,39 +300,29 @@ body {
 .questions-indent {
     padding-left: 12rem;
 }
-/* Areas of Focus */
-.areas-focus {
-    padding: 4rem 0;
-    background-color: #fbfaf7;
-}
-
-.area-card {
+/* Expertise */
+.expertise-card {
     background: white;
     border: 1px solid #d6d3d1;
     border-radius: 0.75rem;
     padding: 2rem;
     transition: box-shadow 0.3s;
 }
-
-.area-card:hover {
+.expertise-card:hover {
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
-
-.area-card-full {
+.expertise-card-full {
     margin-bottom: 2rem;
 }
-
-.area-card h3 {
+.expertise-card h3 {
     font-size: 1.5rem;
     color: #111827;
     margin-bottom: 1rem;
 }
-
-.area-card p {
+.expertise-card p {
     color: #374151;
 }
-
-.areas-grid {
+.expertise-grid {
     display: grid;
     gap: 2rem;
 }
