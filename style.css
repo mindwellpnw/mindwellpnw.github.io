@@ -274,9 +274,21 @@ body {
 }
 
 .question-item {
-    border-left: 2px solid #34d399;
-    padding: 0.25rem 0 0.25rem 1.5rem;
-    margin-bottom: 0.5rem;
+    position: relative;
+    padding: 0.25rem 0 0.25rem 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.question-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6ee7b7 0%, #0d9488 100%);
 }
 
 .question-item p {
