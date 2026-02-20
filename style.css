@@ -597,3 +597,14 @@ body {
         padding: 1.5rem 1rem;
     }
 }
+@media (max-width: 640px) {
+    .familiar-box {
+        padding: 1.5rem 0.75rem; /* Reduces top/bottom and significantly shrinks side padding */
+        margin: 0;               /* Ensures the box touches the edges if needed */
+        width: 100%;             /* Forces the box to use all available horizontal space */
+    }
+
+    .questions-indent {
+        padding-left: 0.5rem;   /* This removes that massive 12rem desktop gap */
+    }
+}
