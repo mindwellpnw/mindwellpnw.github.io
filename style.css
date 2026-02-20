@@ -256,11 +256,8 @@ body {
 
 /* Familiar Section */
 .familiar {
-    padding: 2rem 0 1rem;
+    padding: 4rem;
     background-color: #f4efe8;
-}
-.familiar-adhd {
-    padding: 0 0 4rem;
 }
 .section-title {
     font-size: 2.25rem;
