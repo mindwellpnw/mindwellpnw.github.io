@@ -274,9 +274,9 @@ body {
 }
 
 .question-item {
-    border-left: 2px solid #0d9488;
-    padding: 0.75rem 0 0.75rem 1.5rem;
-    margin-bottom: 1rem;
+    border-left: 2px solid #34d399;
+    padding: 0.25rem 0 0.25rem 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .question-item p {
